@@ -1,7 +1,12 @@
 module.exports = {
-    match: [/function/],
+
+    match: [
+      /[^\,^\(\=]\s*function/,
+    ],
+
     label: [
       /function\s*([\w]+)\(/,
-      /([\w]+)\:\s*function/
-    ]
+      /([\w]+)\:\s*function/,
+    ],
+
 };
