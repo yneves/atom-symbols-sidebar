@@ -1,0 +1,16 @@
+{
+  "name": "symbols-sidebar",
+  "main": "./lib/index.js",
+  "version": "0.0.0",
+  "description": "Atom package to show a sidebar panel containing a list of symbols from the current file.",
+  "activationCommands": {
+    "atom-workspace": "symbols-sidebar:toggle"
+  },
+  "repository": "https://github.com/yneves/atom-symbols-sidebar",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}
